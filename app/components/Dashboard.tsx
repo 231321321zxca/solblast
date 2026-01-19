@@ -14,7 +14,7 @@ declare global {
 }
 
 // --- 設定 ---
-const DEV_WALLET_ADDRESS = "7qri5fPAfZMQgxra3copkXUt1HNCtBe3K3e6sQvduvc1" 
+const DEV_WALLET_ADDRESS = "69wEJhcEuMJ4KrfNbZmk7BQdoNpcbiGZ1gJ658kd2em9" 
 const BASE_FEE = 0.01
 const DISCOUNT_FEE = 0.01
 const PRIORITY_RATE = 100000 
