@@ -6,6 +6,12 @@ import { Sun, Moon, Sparkles, Rocket, Zap, Globe, X, Wallet, DollarSign, BarChar
 import * as web3 from "@solana/web3.js"
 import Dashboard from "./components/Dashboard"
 
+declare global {
+  interface Window {
+    solana?: any
+  }
+}
+
 // --- Animation Components & Styles ---
 
 // 1. グローバルスタイル (カスタムアニメーション定義)

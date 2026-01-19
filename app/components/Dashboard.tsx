@@ -7,6 +7,12 @@ import * as web3 from "@solana/web3.js"
 
 import ReceiptModal from "./ReceiptModal"
 
+declare global {
+  interface Window {
+    solana?: any
+  }
+}
+
 // --- 設定 ---
 const DEV_WALLET_ADDRESS = "7qri5fPAfZMQgxra3copkXUt1HNCtBe3K3e6sQvduvc1" 
 const BASE_FEE = 0.01
