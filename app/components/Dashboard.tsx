@@ -314,7 +314,7 @@ export default function Dashboard({ onBack }: DashboardProps) {
              <div className="bg-gradient-to-r from-purple-500 to-pink-500 p-1 rounded-full mb-6 shadow-2xl shadow-purple-500/20 animate-pulse-slow"><div className="bg-black rounded-full p-6"><Lock className="w-12 h-12 text-white" /></div></div>
              <h2 className={`text-3xl font-black mb-4 ${currentStyle.text}`}>Referral Program <span className="text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-400"></span></h2>
              <p className={`${currentStyle.textSub} max-w-md mx-auto leading-relaxed mb-8`}>We are currently upgrading our affiliate system to bring you real-time earnings. Get ready to earn <span className={`${currentStyle.text} font-bold`}>{REFERRAL_PERCENT}%</span> of all transaction fees generated from your invites.</p>
-             <div className="flex flex-col gap-3"><div className="px-6 py-2 bg-white/5 rounded-full border border-white/10 text-xs font-bold tracking-widest uppercase text-[#888] flex items-center justify-center gap-2"><Sparkles className="w-3 h-3 text-yellow-400" /> Coming Soon</div><p className="text-[10px] text-[#555]"></p></div>
+             <div className="flex flex-col gap-3"><div className="px-6 py-2 bg-white/5 rounded-full border border-white/10 text-xs font-bold tracking-widest uppercase text-[#888] flex items-center justify-center gap-2"><Sparkles className="w-3 h-3 text-yellow-400" /> Coming Soon z</div><p className="text-[10px] text-[#555]"></p></div>
           </div>
         )}
       </main>
